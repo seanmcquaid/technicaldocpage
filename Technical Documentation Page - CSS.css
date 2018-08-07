@@ -1,50 +1,18 @@
-header {
-  background-color: aqua;
-}
+
 
 #navbar {
-  position: fixed;
-  mind-width: 300px;
+  position: absolute;
+  min-width: 300px;
   top: 0px;
   left: 0px;
   width: 300px;
   height: 100%;
   border-right: solid;
-  border-color: black;
+  border-color: rebeccapurple;
 }
 
-#navbar a {
- color: black;
- text-decoration: none;
- cursor: pointer;
-}
-
-#navbar li {
-  color: aqua;
-  border: 2px solid;
-  padding: 5px;
-  padding-left: 50px;
-  list-style: none;
-  position: relative;
-  
-}
 
 #main-doc {
-
-}
-
-#main-doc section {
-
-}
-
-section article {
-
-}
-
-section li {
-
-}
-
-code {
+text-align: left;
 
 }
