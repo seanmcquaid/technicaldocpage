@@ -1,18 +1,53 @@
-
-
-#navbar {
-  position: absolute;
-  min-width: 300px;
-  top: 0px;
-  left: 0px;
-  width: 300px;
-  height: 100%;
-  border-right: solid;
-  border-color: rebeccapurple;
+html {
+min-width: 300px;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 
 
+@media only screen and (max-width: 850px) {
+/* Resizes for phones */
+
+#navbar {
+position: fixed;
+min-width: 300px;
+top: 0px;
+left: 0px;
+width: 300px;
+height: 100%;
+border-right: solid;
+border-color: black;
+}
+
+#navbar a {
+
+}
+
+#navbar ul {
+list-style: none;
+}
+
+#navbar li {
+
+}
+}
+
 #main-doc {
-text-align: left;
+
+}
+
+#main-doc header {
+
+}
+
+section li {
+
+}
+
+code {
+
+}
+
+section article {
 
 }
