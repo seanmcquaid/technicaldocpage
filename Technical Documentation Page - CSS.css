@@ -1,15 +1,24 @@
 html {
 min-width: 300px;
-color: white;
+color: black;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+line-height: 2;
 }
 
+header {
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  margin: 10px;
+}
+
+/*need navbar elements for normal screen*/
 
 @media only screen and (max-width: 850px) {
 /* Resizes for phones */
 
 #navbar {
-position: fixed;
+position: absolute;
 min-width: 300px;
 top: 0px;
 left: 0px;
@@ -20,34 +29,58 @@ border-color: black;
 }
 
 #navbar a {
-
+color: blue;
+cursor: pointer;
 }
 
 #navbar ul {
-list-style: none;
+height: 80%;
+overflow-x: hidden;
+overflow-y: auto;
 }
 
 #navbar li {
+position: relative; 
+color: blue;
+border: 2px solid;
+border-bottom-width: 0px;
+padding: 10px;
+padding-left: 30px;
+list-style: none;
+width: 100%;
 
 }
 }
 
 #main-doc {
-
+position: absolute;
+margin-left: 300px;
+padding: 25px;
+margin-bottom: 110px;
 }
 
 #main-doc header {
-
+color: black;
+text-align: left;
+margin: 0px;
 }
 
 section li {
-
+list-style: none;
+color: royalblue;
 }
 
 code {
-
+display: block;
+text-align: left;
+position: relative;
+background-color: #f7f7f7;
+padding: 10px;
+margin: 10px;
+border-radius: 5px;
 }
 
 section article {
-
+color: #4d4e53;
+margin: 10px;
 }
