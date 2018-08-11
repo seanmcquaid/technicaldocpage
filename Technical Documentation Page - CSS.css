@@ -15,21 +15,37 @@ header {
 /*navbar for normal screen*/
 
 #navbar {
-
-}
-
-#navbar a {
-
-}
-
-#navbar ul {
-
-}
-
-#navbar li {
-
-
-}
+  position: absolute;
+  min-width: 300px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border: solid;
+  }
+  
+  #navbar a {
+  color: blue;
+  cursor: pointer;
+  }
+  
+  #navbar ul {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  }
+  
+  #navbar li {
+  position: relative; 
+  color: blue;
+  border: 1px solid;
+  border-bottom-color: blue;
+  padding: 10px;
+  padding-left: 30px;
+  list-style: none;
+  width: 100%;
+  
+  }
 
 
 @media only screen and (max-width: 850px) {
@@ -42,7 +58,7 @@ top: 0px;
 left: 0px;
 width: 300px;
 height: 100%;
-border-right: solid;
+border: solid;
 border-color: black;
 }
 
